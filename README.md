@@ -67,12 +67,11 @@ Aplicația este destinată unei echipe care dorește să își gestioneze sarcin
  - edit — afișarea formularului pentru editarea unei sarcini;
  - update — actualizarea sarcinii;
  - destroy — ștergerea sarcinii.
-2. Cream rutele pentru metodele controllerului TaskController în fișierul routes/web.php și specificați metodele HTTP corecte pentru fiecare rută.
-3. Utilizam gruparea rutelor pentru controllerul TaskController cu prefixul /tasks pentru a simplifica rutarea și a îmbunătăți lizibilitatea codului.
-4. Definim nume corecte pentru rutele controllerului TaskController
-5. Adăugam validarea parametrilor rutei id pentru sarcini. Asigurați-vă că parametrul id este un număr întreg pozitiv. Utilizați metoda where pentru a limita valorile parametrului id.
-6. În loc să cream manual rute pentru fiecare metodă, putem folosi un controller de resurse, care va crea automat rute pentru toate operațiunile CRUD:
-În fișierul routes/web.php, înlocuim crearea manuală a rutelor pentru controllerul TaskController cu un controller de resurse: php Route::resource('tasks', TaskController::class);
+#### 2. Cream rutele pentru metodele controllerului TaskController în fișierul routes/web.php și specificați metodele HTTP corecte pentru fiecare rută.
+#### 3. Utilizam gruparea rutelor pentru controllerul TaskController cu prefixul /tasks pentru a simplifica rutarea și a îmbunătăți lizibilitatea codului.
+#### 4. Definim nume corecte pentru rutele controllerului TaskController
+#### 5. Adăugam validarea parametrilor rutei id pentru sarcini. Asigurați-vă că parametrul id este un număr întreg pozitiv. Utilizați metoda where pentru a limita valorile parametrului id.
+#### 6. În loc să cream manual rute pentru fiecare metodă, putem folosi un controller de resurse, care va crea automat rute pentru toate operațiunile CRUD: În fișierul routes/web.php, înlocuim crearea manuală a rutelor pentru controllerul TaskController cu un controller de resurse: php Route::resource('tasks', TaskController::class);
 
 #### Diferența între crearea manuală a rutelor și utilizarea unui controller de resurse:
 #### Ce rute și ce nume de rute vor fi create automat?
@@ -152,5 +151,11 @@ Componenta trebuie să afișeze informații despre sarcină:
 #### Explicați diferența între crearea manuală a rutelor și utilizarea unui controller de resurse.
 #### Ce avantaje oferă utilizarea componentelor anonime Blade?
 #### Ce metode de cereri HTTP sunt folosite pentru a executa operațiunile CRUD?
+
+
+
+
+
+
 
 ### Concluzii
