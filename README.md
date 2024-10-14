@@ -67,16 +67,29 @@ Aplicația este destinată unei echipe care dorește să își gestioneze sarcin
  - edit — afișarea formularului pentru editarea unei sarcini;
  - update — actualizarea sarcinii;
  - destroy — ștergerea sarcinii.
+   
+Creare:
+![image](https://github.com/user-attachments/assets/f649fe8e-0dbf-4ada-a718-46a5024a76b0)
+![image](https://github.com/user-attachments/assets/bb08d178-b18f-4566-960e-a276ed7e2c85)
+
+Crearea functiilor si metodelor:
+![image](https://github.com/user-attachments/assets/5f2531d7-d4d4-43ad-b75e-836805b6853e)
+![image](https://github.com/user-attachments/assets/8bc09ec4-21c7-4e28-b513-fac7fb010502)
+
 #### 2. Cream rutele pentru metodele controllerului TaskController în fișierul routes/web.php și specificați metodele HTTP corecte pentru fiecare rută.
 #### 3. Utilizam gruparea rutelor pentru controllerul TaskController cu prefixul /tasks pentru a simplifica rutarea și a îmbunătăți lizibilitatea codului.
 #### 4. Definim nume corecte pentru rutele controllerului TaskController
 #### 5. Adăugam validarea parametrilor rutei id pentru sarcini. Asigurați-vă că parametrul id este un număr întreg pozitiv. Utilizați metoda where pentru a limita valorile parametrului id.
+![image](https://github.com/user-attachments/assets/f4ee1eb5-7939-4f18-a37e-39ecbd98d4aa)
 #### 6. În loc să cream manual rute pentru fiecare metodă, putem folosi un controller de resurse, care va crea automat rute pentru toate operațiunile CRUD: În fișierul routes/web.php, înlocuim crearea manuală a rutelor pentru controllerul TaskController cu un controller de resurse: php Route::resource('tasks', TaskController::class);
+![image](https://github.com/user-attachments/assets/662b7c98-ddb9-4caf-8bcb-806c9baa2873)
 
 #### Diferența între crearea manuală a rutelor și utilizarea unui controller de resurse:
 #### Ce rute și ce nume de rute vor fi create automat?
 
 #### 7. Verificam rutele create cu ajutorul comenzii php artisan route:list.
+![image](https://github.com/user-attachments/assets/18f0b301-ed55-4f05-801b-ac7b51babbf2)
+
 
 
 
@@ -92,6 +105,8 @@ Aplicația este destinată unei echipe care dorește să își gestioneze sarcin
  - Meniu de navigare;
  - Conținutul paginii.
 #### 2. Folosim directiva @yield pentru a defini zona în care va fi inserat conținutul diferitelor pagini.
+![image](https://github.com/user-attachments/assets/4836d62f-5182-4414-acd1-f59957858b4c)
+
 
 
 
@@ -101,15 +116,24 @@ Aplicația este destinată unei echipe care dorește să își gestioneze sarcin
  - Mesaj de bun venit: titlu și o scurtă descriere a aplicației, de exemplu „To-Do App pentru echipe”.
  - Navigație: linkuri către secțiunile principale, cum ar fi: Lista de sarcini; Crearea unei sarcini.
  - Informații despre aplicație: o scurtă descriere a scopului aplicației și a principalelor sale funcții.
+![image](https://github.com/user-attachments/assets/320ade8d-5899-4cd5-ab6e-5498dbbcdc42)
+
 #### 3. Cream vizualizarea pentru pagina "Despre noi" — about.blade.php folosind layoutul layouts/app.blade.php în directorul resources/views.
+![image](https://github.com/user-attachments/assets/46425fb9-d685-4eb2-936d-2d437e9cf775)
+
 #### 4. Cream vizualizări pentru sarcini cu următoarele șabloane în directorul resources/views/tasks:
  - index.blade.php — lista de sarcini;
  - show.blade.php — afișarea unei sarcini;
 #### 5. Randam lista de sarcini pe pagina index.blade.php folosind date statice transmise din controller cu ajutorul directivei @foreach.
+![image](https://github.com/user-attachments/assets/2e0bc365-478a-4e78-9361-249bca0df8a8)
+![image](https://github.com/user-attachments/assets/8bf01ca4-c9f1-4b52-8b5a-21627ed3b676)
+
 
 
 ### Nr. 4.3. Componente anonime Blade
 #### 1. Cream o componentă anonimă pentru afișarea antetului (header). Folosiți componenta creată în layoutul layouts/app.blade.php.
+![image](https://github.com/user-attachments/assets/cb240377-e0ae-431f-b79f-7838ba7afd7b)
+
 #### 2. Cream o componentă anonimă pentru afișarea sarcinilor:
 
 Componenta trebuie să fie simplă și să folosească parametri transmiși prin directiva @props. Acest lucru va face șabloanele mai flexibile și reutilizabile pe diverse pagini.
