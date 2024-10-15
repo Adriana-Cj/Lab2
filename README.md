@@ -14,7 +14,7 @@ Aplicația este destinată unei echipe care dorește să își gestioneze sarcin
 ## Nr. 1. Pregătirea pentru lucru, instalarea Laravel
 #### 1. Deschidem terminalul și cream un nou proiect Laravel cu numele todo-app folosind Composer: composer create-project laravel/laravel:^10 todo-app
 ![image](https://github.com/user-attachments/assets/7b0384f6-e6d4-4c21-a229-407df1749cad)
-#### 2. Intram în directorul proiectului: bash cd todo-app
+#### 2. Intram în directorul proiectului: cd todo-app
 ![image](https://github.com/user-attachments/assets/ac539ecb-3c9a-4b89-928d-ef8d45bc90cd)
 #### 3. Pornim serverul încorporat Laravel: php artisan serve
 ![image](https://github.com/user-attachments/assets/f37b52bc-952e-46fa-a257-2a71e89656ad)
