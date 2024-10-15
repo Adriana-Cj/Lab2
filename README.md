@@ -172,9 +172,23 @@ Componenta trebuie să afișeze informații despre sarcină:
 
 ### Răspunsuri la întrebările de control
 #### Ce este un controller de resurse în Laravel și ce rute creează?
+Un controller in Laravel este o clasa care gestioneaza cererile prin metode dedicate. Fiecare metoda din controller este responsabila de o actiune specifica, apelata printr-o ruta. In loc sa plasam logica de procesare direct in rute, aceasta poate fi mutata in metodele controllerului, facand astfel codul mai organizat si usor de intretinut.
+
+Laravel este un tip de controller care gestioneaza operatiunile CRUD (Create, Read, Update, Delete) pentru un model. Laravel creeaza automat rute pentru aceste operatiuni atunci cand folosesti Route::resource. Rutele includ: index, create, store, show, edit, update, si destroy.
+
 #### Explicați diferența între crearea manuală a rutelor și utilizarea unui controller de resurse.
+Crearea manuala a rutelor implica definirea fiecarui endpoint si metoda in mod individual. Utilizarea unui controller de resurse simplifica procesul prin generarea automata a tuturor rutelor necesare pentru operatiunile CRUD, reducand astfel volumul de cod si mentenanta.
+
 #### Ce avantaje oferă utilizarea componentelor anonime Blade?
+ - Usurinta in utilizare, nu necesita clase PHP dedicate.
+ - Reutilizare mai simpla a codului in mai multe vizualizari.
+ - Mai putina configurare si structura mai curata pentru componentele simple.
+
 #### Ce metode de cereri HTTP sunt folosite pentru a executa operațiunile CRUD?
+ - Create: POST
+ - Read: GET
+ - Update: PUT/PATCH
+ - Delete: DELETE
 
 
 
@@ -183,3 +197,6 @@ Componenta trebuie să afișeze informații despre sarcină:
 
 
 ### Concluzii
+Concluziile generale ale acestei lucrari de laborator evidentiaza importanta utilizarii corecte a controllerelor si componentelor in Laravel pentru a construi aplicatii web structurate si eficiente. Prin folosirea unui controller de resurse, am observat o simplificare semnificativa a gestionarii operatiunilor CRUD, automatizand crearea rutelor si reducand efortul de scriere manuala a acestora. Comparand abordarea manuala cu cea bazata pe controllere de resurse, am putut aprecia eficienta si claritatea oferita de Laravel.
+
+De asemenea, am inteles ca utilizarea componentelor anonime Blade aduce un plus de flexibilitate in dezvoltarea aplicatiilor, oferind o modalitate mai simpla de a organiza si reutiliza codul vizual. In final, intelegerea metodelor de cereri HTTP corelate cu fiecare operatiune CRUD este esentiala pentru implementarea corecta a operatiunilor pe server, respectand bunele practici in dezvoltarea aplicatiilor RESTful.
