@@ -136,21 +136,25 @@ Comanda `Route::resource('nume', NumeController::class);` creează următoarele 
 
 ### Nr. 4.2. Utilizarea șabloanelor Blade
 #### 1. Cream, vizualizarea pentru pagina principală `home.blade.php` folosind layoutul `layouts/app.blade.php` în directorul resources/views.
+![image](https://github.com/user-attachments/assets/38a75377-9de0-473a-9d34-f4e0f9714b8e)
+
 #### 2. Pe pagina principală sunt:
  - Mesaj de bun venit: titlu și o scurtă descriere a aplicației, de exemplu „To-Do App pentru echipe”.
  - Navigație: linkuri către secțiunile principale, cum ar fi: Lista de sarcini; Crearea unei sarcini.
  - Informații despre aplicație: o scurtă descriere a scopului aplicației și a principalelor sale funcții.
-![image](https://github.com/user-attachments/assets/320ade8d-5899-4cd5-ab6e-5498dbbcdc42)
 
 #### 3. Cream vizualizarea pentru pagina "Despre noi" — `about.blade.php` folosind layoutul layouts/app.blade.php în directorul resources/views.
-![image](https://github.com/user-attachments/assets/46425fb9-d685-4eb2-936d-2d437e9cf775)
+![image](https://github.com/user-attachments/assets/696561e7-e1d7-495a-a053-2f00ad860d7a)
 
 #### 4. Cream vizualizări pentru sarcini cu următoarele șabloane în directorul resources/views/tasks:
  - index.blade.php — lista de sarcini;
  - show.blade.php — afișarea unei sarcini;
+  
 #### 5. Randam lista de sarcini pe pagina index.blade.php folosind date statice transmise din controller cu ajutorul directivei @foreach.
-![image](https://github.com/user-attachments/assets/2e0bc365-478a-4e78-9361-249bca0df8a8)
-![image](https://github.com/user-attachments/assets/8bf01ca4-c9f1-4b52-8b5a-21627ed3b676)
+ ![image](https://github.com/user-attachments/assets/39db56e6-963e-4866-9e9e-81bbfedc69bd)
+ ![image](https://github.com/user-attachments/assets/8962b34b-3744-4266-ae32-d8e174afd29d)
+
+
 
 
 
