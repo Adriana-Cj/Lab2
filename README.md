@@ -186,16 +186,18 @@ Componenta trebuie să afișeze informații despre sarcină:
 ![image](https://github.com/user-attachments/assets/90c7778f-3d08-41cd-94cb-56fe1f891457)
 
 #### 3. Adăugam stiluri pentru elementele paginii, cum ar fi titluri, meniuri de navigare, butoane, formulare etc.
-#### 4. Opțional, putem folosi biblioteci de stiluri, cum ar fi Bootstrap sau Tailwind CSS.
-
-
-
 
 
 
 ## Nr. 5. Sarcini suplimentare
 #### 1. Afișam ultima sarcină creată pe pagina principală folosind View Composer.
+![image](https://github.com/user-attachments/assets/5b4cbdf6-5fd9-46b2-828f-206254e4172b)
+![image](https://github.com/user-attachments/assets/a7e56a67-56ea-4133-968f-2fd7a5734c7f)
+
+![image](https://github.com/user-attachments/assets/9a68d479-ca56-4ee2-9149-200552f7a7cd)
+
 #### 2. Cream o componentă anonimă suplimentară pentru afișarea priorității sarcinii (scăzută, medie, ridicată) cu culori sau pictograme diferite pentru fiecare prioritate.
+![image](https://github.com/user-attachments/assets/1220bce5-2ceb-4ac0-a545-ca7dc2225dbe)
 
 
 
