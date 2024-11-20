@@ -190,7 +190,7 @@ Componenta trebuie să afișeze informații despre sarcină:
 ![image](https://github.com/user-attachments/assets/90c7778f-3d08-41cd-94cb-56fe1f891457)
 
 #### 3. Adăugam stiluri pentru elementele paginii, cum ar fi titluri, meniuri de navigare, butoane, formulare etc.
-
+![image](https://github.com/user-attachments/assets/a05beeb3-fb85-4be1-8ba6-fd194c1e0c02)
 
 
 ## Nr. 5. Sarcini suplimentare
